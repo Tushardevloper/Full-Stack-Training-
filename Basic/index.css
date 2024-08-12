@@ -1,0 +1,32 @@
+#myimage{
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#myDiv{
+    height: 250px;
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myDiv #myImage {
+    margin: 10px 10px 10px 10px;
+    max-width: 50%;       /* Make sure the image does not exceed the width of the div */
+    max-height: 50%;      /* Make sure the image does not exceed the height of the div */
+    object-fit: contain;   /* Scale the image while maintaining aspect ratio */
+}
+
+#maindiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
